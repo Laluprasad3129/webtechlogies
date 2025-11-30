@@ -1,0 +1,47 @@
+#color_block{
+    width: 200px;
+    height: 200px;
+    /* color name */
+    background-color: lightgreen;
+    background-color: red;
+    /* rgb color value */
+    background-color: rgb(255,0,0);
+    background-color: rgb(0,0,0);
+    background-color: rgb(0,255,0);
+    background-color: rgb(0,0,255);
+    background-color: rgb(255,255,255);
+    background-color: rgb(124,35,222);
+    /* rgb color with alpha value */
+    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(255,0,0,0.8);
+    background-color: rgba(0,255,0,0.2);
+    background-color: rgba(0,0,255,0.7);
+    /* hexadecimal color value */
+    background-color: #000000;
+    background-color: #ff0000;
+    background-color: #00ff;
+    background-color: #ff2;
+    background-color: #0f08;
+    background-color: #fff;
+    background-color: #000;
+    /* hexadecimal color value with aplha value */
+    background-color: #0000ff10;
+    background-color: #0f03;
+    /* hsl color value */
+    background-color: hsl(120deg,100%,90%);
+    background-color: hsl(150deg,100%,50%);
+    /* hsl color value with alpha color value */
+    background-color: hsla(40deg,100%,50%,0.5);
+    /* transparent(default value) */
+
+}
+#color_block_two{
+    width: 200px;
+    height: 200px;
+    /*  six digit hexadecimal color value */
+    background-color: #3498db;
+    /* three digithexadecimal color value */
+    background-color: #7ab;
+
+    
+}

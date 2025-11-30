@@ -1,0 +1,15 @@
+.color_gardient_block{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#first_gradient{
+    background-image: linear-gradient(to bottom right,orange , white, green);
+}
+#second_gradient{
+    background-image: radial-gradient(circle at bottom left, violet, indigo,blue, green, yellow, orange, red);
+    border: 3px solid black;
+}
+#third_gradient{
+    background-image: conic-gradient( violet, indigo,blue, green, yellow, orange, red);
+}

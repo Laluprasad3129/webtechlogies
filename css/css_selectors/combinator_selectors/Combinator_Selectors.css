@@ -1,0 +1,72 @@
+/* combinator selectors */
+#parent_block{
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+    background-color: lavender;
+}
+#child_block{
+    width: 100px;
+    height: 75px;
+    background-color: black;
+}
+ /* child_selector (>)*/
+ #parent_block:hover>#child_block{
+    background-color: silver;
+ }
+ #grand_parent_container{
+    width: 400px;
+    height: 300px;
+    background-color: mediumblue;
+ }
+ #parent_container{
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+ }
+ #child_container{
+    width: 200px;
+    height: 100px;
+    background-color: mediumblue;
+ }
+ #grand_child_container{
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+ }
+    /* descendant selector (space)*/
+    #grand_parent_container:hover #child_container{
+        background-color: red;
+    }
+    #parent_container:hover #grand_child_container{
+        background-color: yellow;
+    }
+    .container{
+      width: 150px;
+      height: 150px;
+      float: left;
+    }
+    #orange_color{
+      background-color: orange;
+    }
+    #blue_color{
+      background-color: blue;
+    }
+    #black_color{
+      background-color: black;
+    }
+    #gray_color{
+      background-color: gray;
+    }
+    #pink_color{
+      background-color: pink;
+    }
+    /* adjacent sibling selector */
+    #orange_color:hover+#blue_color{
+      background-color: yellow;
+    }
+    /* general sibling selector */
+    #orange_color:hover~#pink_color{
+      background-color: darkred;
+      border: 1px solid black;
+    }

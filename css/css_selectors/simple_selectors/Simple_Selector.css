@@ -1,0 +1,110 @@
+    @font-face {
+    font-family: Product Sans;
+    src: url(../../../assets/fonts/Product\ Sans\ Regular.ttf);
+            }
+ /* simple selectors */
+
+/* universal selector */
+/* *{
+    font-size: 40px;
+} */
+
+/* element selector (tag_name selector)*/
+/* 
+h1{
+    font-size: 50px;
+    color: darkgreen;
+}
+button
+{
+    font-size: 60px;
+    color: rgb(5, 5, 87);
+    font-weight: bold;
+    background-color: rgb(124, 170, 210);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+} */
+
+/* id selector */
+/* h1{
+    font-size: 40px;
+}
+#core_java_heading
+{
+    color: darkred;
+}
+#core_python_heading
+{
+    color: darkblue;
+}
+#web_development__heading
+{
+    color: rgb(65, 207, 13);
+    width: fit-content;
+    background-color: rgb(180, 212, 213);
+}
+button{
+    outline: none;
+    border: none;
+    color: rgba(155, 148, 148, 0.79);
+    font-weight: bold;
+}
+#subscribe_button{
+    background-color: yellow;
+    border-radius: 30px;
+}
+#follow_button{
+    background-color: rgb(129, 18, 105);
+    border-radius: 30px;
+} */
+
+/* class selectors  */
+/* .increase_font_size{
+    font-size: 45px;
+}
+.text_darkblue{
+    color: darkblue;
+}
+.color_changes{
+    background-color: rgb(180, 212, 213);
+    color: darkred;
+}
+#Scrollable_content_marquee{
+    border: 2px solid black;
+    border-radius: 10px;
+} */
+ #batch_schedule_table_caption{
+    font-size: 65px;
+    font-weight: bold;
+    color: darkgrey;
+    background-color:darkred;
+ }
+ #batch_schedule_table_head{
+    background-color:black;
+    background-color:pink ;
+ }
+ .batch_schedule_table_head_cells{
+    font-size: 50px;
+ }
+ .batch_schedule_table_body_cells{
+    font-size: 40px;
+ }
+ /* group_selector */
+
+ #batch_schedule_table_body_first_row,#batch_schedule_table_body_third_row{
+    background-color: lightgrey;
+ }
+ .lightgray_rows{
+    background-color: lightgrey;
+ }
+ .lavender_rows{
+    background-color: lavenderblush;
+ }
+
+#batch_schedule_table_body_first_row{
+    font-family: Product Sans;
+}
+*{
+    font-family: Product Sans;
+}

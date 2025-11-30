@@ -1,0 +1,20 @@
+@font-face {
+    font-family:ProductSans;
+    src: url(../../../assets/fonts/Product\ Sans\ Regular.ttf);
+}
+.clip_block{
+    font-family:ProductSans;
+    font-size:100px;
+    width: fit-content;
+}
+#Instagram_block{
+    background-image: linear-gradient(to right,darkblue,magenta,red,orange,yellow);
+    background-clip:text;
+    color: transparent;
+}
+#earth_block{
+    background-image: url(../../../assets/image/earth.png);
+    background-position: 30% 50%;
+    background-clip:text;
+    color: transparent;
+}
