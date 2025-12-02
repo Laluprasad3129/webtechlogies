@@ -4,6 +4,6 @@
     border-radius: 20%;
     background-image: url(../../../assets/image/earth.png),url(../../../assets/image/sun.png),url(../../..//assets/image/space.png);
     background-repeat: no-repeat;
-    background-position: 10% 90%, top right, center;
-    background-size: 35% 35%, 40% 40%,100% 100% ;
+    background-position: 5% 90%, top right, center;
+    background-size: 32% 32%, 40% 40%,100% 100% ;
 }

@@ -1,0 +1,63 @@
+.border_proprty{
+    width: 100px;
+    height: 100px;
+    border-color: gray;
+    border-width: 30px;
+    background-color: greenyellow;
+    float: left;
+    background-color:transparent;
+}
+#solid_property{
+    border-style: solid;
+}#dashed_property{
+    border-style: dashed;
+}
+#dotted_property{
+    border-style: dotted;
+}
+#double_property{
+    border-style: double;
+}
+#inset_property{
+    border-style: inset;
+    border-color: red;
+}
+#outset_property{
+    border-style: outset;
+}
+#groove_property{
+    border-style:groove;
+    background-image: url(../../assets/image/sun.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ridge_property{
+    border-style: ridge;
+    background-image: url(../../assets/image/earth.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#darkblue_property{
+    border-style: solid;
+    border-color: darkblue;
+}
+#mixed_border_property{
+    /* border-top-width: 30px;
+    border-top-style: solid;
+    border-top-color: magenta; */
+    border-top: 30px solid magenta;
+    /* border-right-width: 30px;
+    border-right-style: double;
+    border-right-color: darkblue; */
+    border-right: 30px double darkblue;
+    /* border-bottom-width: 30px;
+    border-bottom-style: dotted;
+    border-bottom-color: orange; */
+    border-bottom: 30px dotted orange;
+    /* border-left-width: 30px;
+    border-left-style: dashed;
+    border-left-color: red; */
+    border-left: 30px dashed red;
+}

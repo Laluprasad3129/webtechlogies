@@ -1,0 +1,23 @@
+.circular_border_blocks{
+    width: 100px;
+    height: 100px;
+    color: gray;
+    border:5px solid ;
+    background-color: greenyellow;
+    float: left;
+}
+#first_block{
+    /* one value */
+    /* border-radius: 10px; */
+    /* two value */
+    /* border-radius: 10px 20px ; */
+    /* three value */
+    /* border-radius: 10px 20px 30px; */
+    /* four value */
+    /* border-radius: 10px 20px 30px 40px; */
+     
+    border-radius: 10% 20% 30% 40%;
+}
+#second_block{
+    border-radius: 50px;
+}

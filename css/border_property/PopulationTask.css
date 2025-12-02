@@ -1,0 +1,44 @@
+@font-face {
+    font-family:ProductSans;
+    src: url(../../assets/fonts/Product\ Sans\ Regular.ttf);
+}
+*{
+    font-family: ProductSans;
+}
+#population_block{
+    font-size: 60px;
+}
+#blue_block{
+    color: darkblue;
+}
+#orange_block{
+    color: orange;
+}
+.country_block{
+    width:150px;
+    background-color: transparent;
+} 
+#India_block{
+    border-style: solid;
+    border-color: red;
+    border-right-width:700px ;
+    border-left-width:0px;
+    border-top-width:0px;
+    border-bottom-width:0px;
+}
+#China_block{
+    border-style: solid;
+    border-color: orange;
+    border-right-width:600px;
+    border-left-width:0px;
+    border-top-width:0px;
+    border-bottom-width:0px;
+}
+#USA_block{
+    border-style: solid;
+    border-color: green;    
+    border-right-width:200px;
+    border-left-width:0px;
+    border-top-width:0px;
+    border-bottom-width:0px;
+}
